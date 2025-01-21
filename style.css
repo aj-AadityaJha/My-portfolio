@@ -1,0 +1,283 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Arial, sans-serif; /* Elegant font */
+}
+
+/* Body */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#logo {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  height: 40px;
+  cursor: pointer;
+  /* width: 150px; */
+  border-radius: 40%;
+}
+
+/* Navigation bar */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Home section styles */
+#home {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to bottom, #6a11cb, #2575fc);
+  color: white;
+}
+
+#home h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#home p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* About section styles */
+#about {
+  background-color: white;
+  padding: 60px 20px;
+  text-align: center;
+
+}
+
+.profile-pic {
+  width: 234px; /* You can adjust the size here */
+  height: auto; /* Keeps the aspect ratio intact */
+  border-radius: 13%; /* Optional, adds a circular border if you want */
+}
+.tryy{
+  width: 234px; /* You can adjust the size here */
+  height: auto; /* Keeps the aspect ratio intact */
+  border-radius: 13%;
+}
+.yess{
+  width: 234px; /* You can adjust the size here */
+  height: auto; /* Keeps the aspect ratio intact */
+  border-radius: 13%;
+}
+
+#about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#about p {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #555;
+}
+
+/* Projects section */
+#projects {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.project h3 {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.project p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.project-buttons .btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 10px 5px 0 0;
+  background-color: #6a11cb;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.project-buttons .btn:hover {
+  background-color: #2575fc;
+}
+
+/* Contact section */
+#contact {
+  background-color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #6a11cb;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #2575fc;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #6a11cb;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Social Media Icons */
+#social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: #6a11cb;
+  transition: color 0.3s, transform 0.3s;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #2575fc;
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+.center-heading {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.skills-container {
+  text-align: center;
+  margin-top: 20px;
+}
+.skill-icon {
+  font-size: 2em;
+  margin: 30px;
+}
+
+/* .slides{
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+  overflow-y: auto;
+  overscroll-behavior-x:contain;
+  scroll-snap-type:x mandatory ;
+  scrollbar-width: none;
+
+} */
